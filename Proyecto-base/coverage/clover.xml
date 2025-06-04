@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1740430960149" clover="3.2.0">
+  <project timestamp="1740430960149" name="All files">
+    <metrics statements="27" coveredstatements="25" conditionals="12" coveredconditionals="12" methods="8" coveredmethods="6" elements="47" coveredelements="43" complexity="0" loc="27" ncloc="27" packages="3" files="4" classes="4"/>
+    <package name="components.Button">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="Button.tsx" path="C:\Users\fredy\OneDrive\Desktop\Clases Meli\Curso 2025-1\Clase 2 React Jest Coverage\base-project\src\components\Button\Button.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Products">
+      <metrics statements="20" coveredstatements="18" conditionals="12" coveredconditionals="12" methods="6" coveredmethods="5"/>
+      <file name="Products.tsx" path="C:\Users\fredy\OneDrive\Desktop\Clases Meli\Curso 2025-1\Clase 2 React Jest Coverage\base-project\src\components\Products\Products.tsx">
+        <metrics statements="20" coveredstatements="18" conditionals="12" coveredconditionals="12" methods="6" coveredmethods="5"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="cond" truecount="6" falsecount="0"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="29" count="5" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="mocks">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="product.ts" path="C:\Users\fredy\OneDrive\Desktop\Clases Meli\Curso 2025-1\Clase 2 React Jest Coverage\base-project\src\mocks\product.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="products.ts" path="C:\Users\fredy\OneDrive\Desktop\Clases Meli\Curso 2025-1\Clase 2 React Jest Coverage\base-project\src\mocks\products.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

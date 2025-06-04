@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas para el componente Home Renderizado inicial de Home 1`] = `
+<div>
+  <div>
+    <h1
+      class="home-title"
+      data-testid="home-title"
+    >
+      Bienvenida!
+    </h1>
+    <h3>
+      Bootcamp 11
+    </h3>
+    <p
+      class="content-info"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum labore cupiditate libero beatae repellendus similique omnis excepturi ullam officiis odit.\\
+    </p>
+    <button>
+      Ver mas
+    </button>
+    <img />
+    <a
+      href=""
+    >
+      Ver productos
+    </a>
+  </div>
+</div>
+`;

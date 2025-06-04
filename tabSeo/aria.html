@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <!-- aria-label -->
+    <button aria-label="Botón para cerrar la venta de detalle">X</button>
+
+    <!-- aria-labelledby -->
+     <h1 id="form-contact-title">Formulario de contacto</h1>
+     <form aria-labelledby="form-contact-title">
+        <input type="text" id="name" placeholder="nombre" tabindex="1">
+        <br/>
+        <input type="text" id="lastname" placeholder="Apellido" tabindex="4">
+        <br/>
+     </form>
+
+     <h2>aria-owns</h2>
+      <!-- aria-owns -->
+      <form id="profile-form" aria-owns="submit-button-child form-description">
+        <input type="text" id="name" placeholder="nombre" tabindex="1">
+      </form>
+      
+      <button type="submit" id="submit-button-child">Enviar formulario</button>
+      <p id="form-description">Complete los campos de este formulario</p>
+
+      <h2>aria-describedby</h2>
+      <!-- aria-describedby -->
+      <button aria-describedby="button-advice">Volver a atras</button>
+      <small style="display: none;" id="button-advice">Tenga en cuenta, que cuando de click en este botón, se perdera toda la información ingresada</small>
+
+      <h2>aria-activedescendant</h2>
+      <select id="location-list" aria-activedescendant="item2">
+        <option id="item1" >Buenos aires</option>
+        <option id="item2" selected>Bogotá</option>
+        <option id="item3" >Ciudad de Mexico</option>
+      </select>
+    </main>
+</body>
+</html>
