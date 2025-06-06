@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container{
+ position: relative;
+ background:red;
+ width:200px;
+ height:200px;
+}
+
+.container:hover{
+ opacity:0.5;
+}
+.container:active{
+ color:purple;
+}
+
+.item{
+ display: inline-block;
+ width:50px;
+ height:50px;
+}
+.yellow{
+ position:relative;
+ background:yellow;
+ z-index:1;
+}
+.green{
+ position: absolute;
+ background:green;
+ width:70px;
+ height:70px;
+ top:10px;
+ left:10px;
+ z-index:2;
+}
+.blue{
+ position:relative;
+ background:blue;
+ z-index:3;
+}
+.orange{
+ position:relative;
+ background:orange;
+ left:10px;
+ top:10px;
+ z-index:1000;
+}
+.button{
+ display:inline-block;
+ margin:10px;
+ padding:20px;
+ background:blue;
+ color:white;
+}
+.button:hover{
+ border-radius:10px;
+}
+.button:visited{
+ background:yellow;
+}
+.button:active{
+ background:pink;
+}
+</style>
+</head>
+<body>
+
+<h1>The z-index Property</h1>
+
+<div class="container">
+	<div class="item yellow"></div>
+	<div class="item green">
+     <div class="item orange"></div>
+    </div>
+	<div class="item blue"></div>
+</div>
+
+  <button class="button">ver mas</button>
+
+<p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+
+</body>
+</html>
